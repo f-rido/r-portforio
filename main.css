@@ -606,6 +606,7 @@ html body #service #serviceList-sp .eachService-sp p {
 
 html body #service #comment li {
   margin: 8px 0;
+  list-style: none;
 }
 
 html body #service #comment li .bell {
