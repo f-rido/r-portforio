@@ -381,7 +381,7 @@ html body #profile #myintro > img {
 html body #profile #myintro #myname {
   text-align: left;
   border-left: 10px solid #000;
-  padding-left: 32px;
+  padding: 0 32px;
 }
 
 @media screen and (max-width: 599px) {
@@ -444,6 +444,7 @@ html body #profile #cv ul {
 @media screen and (max-width: 599px) {
   html body #profile #cv ul {
     text-align: center;
+    padding:0
   }
 }
 
