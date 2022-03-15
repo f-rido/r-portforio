@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport レスポンシブ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="main.css">
+  <!--Fontawesome -->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+  <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-2/css/4-1-2.css" rel="stylesheet">
+  <title>TOP</title>
+  <!--==============画像ポップアップ（クリックすると画像拡大）===============-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+    type="text/javascript"></script>
+</head>
+<body>
+  <!-- ローディングバー -->
+  <div id="splash">
+    <div id="splash_text"></div>
+  </div>
+  <header>
+    <div class="header-contents">
+      <h1 id="logo">
+        <a href="index.html"><i class="fas fa-code"></i>Webの仕事場<i class="fas fa-code"></i></a>
+      </h1>
+      <div id="menu_btn">メニュー</div>
+    </div>
+  </header>
+  <!--メニュー（サイドバー）--> 
+  <div id="menu">
+    <ul>
+      <li><a href="#profile">プロフィール</a></li>
+      <li><a href="#service">サービス</a></li>
+      <li><a href="#works">制作物</a></li>
+      <li><a href="http://raidoindy.com/script/mailform/mail/">お問い合わせ</a></li>
+    </ul>
+  </div>
+  <div class="menu-background"></div> <!-- メニュー開くと暗くなる-->
+
+  <main>
+    <div id="mainback">
+      <div class="main-wrapper">
+        <h2 class="wrap load-up">ていねいに</h2>
+        <h2 class="wrap load-up">きをくばり</h2>
+        <h2 class="wrap load-up">こころをこめて</h2>
+      </div>
+    </div>
+  </main>
+
+  <section id="profile">
+    <h2>プロフィール</h2>
+    <div id="myintro">
+      <img src="prof.jpg" alt="プロフィール写真">
+      <div id="myname">
+        <h3>T. H</h3>
+        <h4>Webエンジニア(コーディングメイン)</h4>
+        <p>1982年生まれ 東京出身</p>
+        <p id="job">会社員(営業職)</p>
+        <p>活動拠点 東京都葛飾区</p>
+        <p>連絡先 <a href="mailto:web-works@raidoindy.com"><i class="fas fa-envelope"></i>	web-works@raidoindy.com</a></p>
+        <p>仕事の理念 「丁寧に 気を配り 心を込めて」</p>
+      </div>
+    </div>
+
+    <div id="cv">
+      <h3>経歴</h3>
+      <ul>
+        <li>千葉県の大学付属高校 卒業</li>
+        <li>東京の私立大学 卒業</li>
+        <li>大手建材メーカーに4年勤務</li>
+        <li>学術サービス会社 勤務10年以上（現在勤務中）</li>
+        <li>プログラミングスクール <br>TechAcademy「フロントエンドコース」卒業</li>
+        <li>趣味:サッカー・読書</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="aboutWorks">
+    <h2>Web制作について</h2>
+    <div id="motto">
+      <h3>心得</h3>
+      <p>15年以上営業職としてコミュニケーション力と提案力を磨いてきました。
+        <br>その強みを生かしてお客様のニーズに応え、迅速かつ丁寧なWeb作りを致します。</p>
+    </div>
+
+    <div id="skill">
+      <h3>スキル</h3>
+      <ul id="skillList">
+        <li class="sa sa--up"><img src="html-5.svg" alt="HTML"></li>
+        <li class="sa sa--up" data-sa_delay="200"><img src="css-3.svg" alt="CSS"></li>
+        <li class="sa sa--up" data-sa_delay="400"><img src="javascript.svg" alt="javascript"></li>
+        <li class="sa sa--up" data-sa_delay="600"><img src="jquery.svg" alt="jquery"></li>
+        <li class="sa sa--up" data-sa_delay="800"><img src="sass.svg" alt="sass"></li>
+        <li class="sa sa--up" data-sa_delay="1000"><img src="bootstrap.svg" alt="bootstrap"></li>
+      </ul>
+    </div>
+
+    <div class="mind">
+      <div>
+        <h4>スキルを使ってできること</h4>
+        <p>修正しやすい、きれいなコーディングを致します。</p>
+        <p>テキストの装飾やhoverアニメーションを実装できます。</p>
+        <p>レスポンシブデザインも対応致します。</p>
+        <p>ハンバーガーメニュー、ローディングアニメーション、<br>スライドショーなど、動きをつけることができます。</p>
+      </div>
+      <img src="sketch.jpg" alt="sketch">
+    </div>
+
+    <div class="mind" id="mind2">
+      <img src="pc-work.jpg" alt="pc">
+      <div>
+        <h4>制作時の心掛け</h4>
+        <p>ユーザーの使いやすさを第一にコーディングします。</p>
+        <p>修正がしやすいコーディングして、<br>必要箇所には適宜コメントを入れます。</p>
+        <p>HTMLのコードチェックを行います。</p>
+        <p>ブラウザチェックをします。（Chrom, Safari, Edge ）</p>
+        <p>動作チェックをします。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="service">
+    <h2>サービス</h2>
+    <div id="serviceList">
+      <div class="eachService">
+        <h3><i class="fas fa-angle-double-right"></i>コーディング</h3>
+        <img src="coding.jpg" alt="PC" class="serviceImg">
+        <p>￥5,000～</p>
+      </div>
+  
+      <div class="eachService">
+        <h3><i class="fas fa-angle-double-right"></i>ランディングページ</h3>
+        <img src="landing.jpg" alt="広告画像" class="serviceImg">
+        <p>￥30,000～</p>
+      </div>
+  
+      <div class="eachService">
+        <h3><i class="fas fa-angle-double-right"></i>コーポレートサイト</h3>
+        <img src="corporate.jpg" alt="会社" class="serviceImg">
+        <p>￥50,000～</p>
+      </div>
+    </div>
+
+    <div id="serviceList-sp">
+      <div class="eachService-sp">
+        <img src="coding.jpg" alt="PC" class="serviceImg-sp">
+        <div class="seviceName">
+          <h3><i class="fas fa-angle-double-right"></i>コーディング</h3>
+          <p>￥5,000～</p>
+        </div>
+      </div>
+    
+      <div class="eachService-sp">
+        <img src="landing.jpg" alt="広告画像" class="serviceImg-sp">
+        <div class="seviceName">
+          <h3><i class="fas fa-angle-double-right"></i>ランディングページ</h3>
+          <p>￥30,000～</p>
+        </div>
+      </div>
+    
+      <div class="eachService-sp">
+        <img src="corporate.jpg" alt="会社" class="serviceImg-sp">
+        <div class="seviceName">
+          <h3><i class="fas fa-angle-double-right"></i>コーポレートサイト</h3>
+          <p>￥50,000～</p>
+        </div>
+      </div>
+    </div>
+
+    <ul id="comment">
+      <li><i class="far fa-bell bell"></i>御見積は無料です</li>
+      <li><i class="far fa-bell bell"></i>文章や画像素材の御提供をお願いする場合がございます</li>
+      <li><i class="far fa-bell bell"></i>御予算は遠慮なく御相談くださいませ</li>
+      <li><i class="far fa-bell bell"></i>稼働時間 10時間以上/週</li>
+      <li><i class="far fa-bell bell"></i>活動・連絡対応時間
+        <ul class="response">
+          <li>平日:18:00〜22:00</li>
+          <li>土日祝日:9:00〜17:00</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="works">
+    <h2>制作物</h2>
+    <div id="worksList">
+      <div class="eachWorks">
+        <h3><i class="fas fa-play-circle"></i>デモサイト</h3>
+        <p>マッチメイクサイト</p>
+        <a href="https://f-rido.github.io/partido/"><img src="partido.png" alt="WEBサイト画像" class="worksImg"></a>
+      </div>
+    
+      <div class="eachWorks">
+        <h3><i class="fas fa-play-circle"></i>サイト模写</h3>
+        <p> PAS-POL様</p>
+        <a href="paspolAll.png" data-lightbox="group"><img src="palsol.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+      </div>
+    
+      <div class="eachWorks">
+        <h3><i class="fas fa-play-circle"></i>サイト模写</h3>
+        <p>蒼乃建設様</p>
+        <a href="aonoAll.png" data-lightbox="group"><img src="aono.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+      </div>
+    
+      <div class="eachWorks">
+        <h3><i class="fas fa-play-circle"></i>サイト模写</h3>
+        <p>KeiKa様</p>
+        <a href="keikaAll.png" data-lightbox="group"><img src="keika.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+      </div>
+    
+      <div class="eachWorks">
+        <h3><i class="fas fa-play-circle"></i>サイト模写</h3>
+        <p>ルーシー様</p>
+        <a href="xeoryAll.png" data-lightbox="group"><img src="xeory.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+      </div>
+    
+      <div class="eachWorks">
+        <h3><i class="fas fa-play-circle"></i>サイト模写</h3>
+        <p>iSara様</p>
+        <a href="isaraAll.png" data-lightbox="group"><img src="isara.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+      </div>
+    </div>
+
+    <div id="worksList-sp">
+      <div id="partido">
+        <h3><i class="fas fa-play-circle"></i>オリジナルデモサイト</h3>
+        <p>マッチメイクサイト</p>
+        <a href="https://f-rido.github.io/partido/"><img src="partido.png" alt="webサイトスクリーンショット" class="partidoImg"></a>
+      </div>
+    
+        <h3><i class="fas fa-play-circle"></i>サイト模写</h3>
+        <div id="copy">
+          <div class="eachWorks-sp">
+            <p> PAS-POL様</p>
+            <a href="paspolAll.png"><img src="palsol.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+          </div>
+          <div class="eachWorks-sp">
+            <p>蒼乃建設様</p>
+            <a href="aonoAll.png"><img src="aono.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+          </div>
+          <div class="eachWorks-sp">
+            <p>KeiKa様</p>
+            <a href="keikaAll.png"><img src="keika.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+          </div>
+          <div class="eachWorks-sp">
+            <p>ルーシー様</p>
+            <a href="xeoryAll.png"><img src="xeory.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+          </div>
+          <div class="eachWorks-sp">
+            <p>iSara様</p>
+            <a href="isaraAll.png"><img src="isara.png" alt="webサイトスクリーンショット" class="worksImg"></a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="form">
+    <h2>お問い合わせ</h2>
+    <p>御見積は無料です。<br>お仕事の御依頼や御相談、その他何でもお気軽に御連絡ください。</p>
+    <p class="time">活動・連絡対応時間</p>
+    <ul>
+      <li>平日:18:00〜22:00</li>
+      <li>土日祝日:9:00〜17:00</li>
+    </ul>
+    <button type="button" name="" id="btn" tabindex="5" accesskey="B" onclick="location.href='http://raidoindy.com/script/mailform/mail/'">お問い合わせフォームへ</button>
+  </section>
+
+  <footer>
+    <div class="footer-wrapper">
+      <h3><i class="fas fa-code"></i>Webの仕事場<i class="fas fa-code"></i></h3>
+      <ul class="nav">
+        <li><a href="index.html">ホーム</a></li>
+        <li> <a href="#profile">プロフィール</a></li>
+        <li><a href="#service">サービス</a></li>
+        <li><a href="#works">制作物</a></li>
+        <li><a href="http://raidoindy.com/script/mailform/mail/">お問い合わせ</a></li>
+      </ul>
+      <p class="copyright">
+        COPYRIGHT © T. H. All rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+  <!-- jQuery jsファイル -->
+  <script src="main.js"></script>
+</body>
+</html>
